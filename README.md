@@ -43,8 +43,22 @@ The data has been loaded to postgreSQL and the schema.sql has the code for the t
 
 # Extracting and loading to Mongo DB:
 
+## Extract:
 
+The realtor.com has been scrapped to get the prices of all the houses in California.
 
+## Tranform:
+
+1. The prices was converted to numerical before storing to database.
+2. The zipcode has been extracted from the address and has been stored in sperate column.
+
+## Loaded:
+
+The data has been loaded to mongo DB.
+
+## Limitations:
+
+It took a lot of time and was able to scarpe only 164 pages. There was some inconsistency and ran out into error. Totally 7072 documents have been scrapped.
 
 
 
