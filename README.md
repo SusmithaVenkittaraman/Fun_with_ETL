@@ -7,7 +7,7 @@ The aim was to gather information for hospitals, schools and home prices in cali
 # Extracting and loading to relational database(postgreSQL):
 
 The code for the transformations and loading is in the CSV_to_Postgres.ipynb Jupyter Notebook.
-Please add your password for postgres before running the code.
+Please add your password for postgres in config.py before running the code.
 
 # Hospitals data ETL:
 
