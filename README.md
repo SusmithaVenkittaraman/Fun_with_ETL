@@ -43,6 +43,8 @@ The data has been loaded to postgreSQL and the schema.sql has the code for the t
 
 # Extracting and loading to Mongo DB:
 
+The code is in web_scrapping_ipynb.
+
 ## Extract:
 
 The realtor.com has been scrapped to get the prices of all the houses in California.
